@@ -3,7 +3,7 @@ import time
 import spotipy
 from spotipy.oauth2 import SpotifyOAuth
 #start=time.time()
-
+#In order for this to work you need to have your own spotify app , you can read more about this here https://spotipy.readthedocs.io/en/2.25.2/
 sp = spotipy.Spotify(auth_manager=SpotifyOAuth(client_id="YOUR_CLIENT_ID_HERE",
                                                client_secret="YOUR SECRET ID HERE",
                                                redirect_uri="http://127.0.0.1:8000/callback",#OR SOME PORT LIKE 8000  
